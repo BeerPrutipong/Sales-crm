@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoneyBill } from '@fortawesome/free-solid-svg-icons';
+import { faMoneyBill , faCartShopping , faCoins} from '@fortawesome/free-solid-svg-icons';
 
 
 function Cards() {
@@ -43,7 +43,7 @@ function Cards() {
     return (
             <div className="row">
                 <div className="col-lg-3 col-md-6 mb-3">
-                    <div className="card card-height rounded-0" style={{ width: "250px", height: "250px" }}>
+                    <div className="card card-height rounded-0" style={{ width: "250px", height: "150px" }}>
                         <div className="card-body shadow-lg p-3">
                             <div className="row">
                                 <div className="col-5 col-md-4">
@@ -70,14 +70,13 @@ function Cards() {
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 mb-3">
-                    <div className="card card-height rounded-0" style={{ width: "250px", height: "250px" }}>
+                    <div className="card card-height rounded-0" style={{ width: "250px", height: "150px" }}>
                         <div className="card-body shadow-lg p-3">
                             <div className="row">
                                 <div className="col-5 col-md-4">
-                                    <FontAwesomeIcon icon={faMoneyBill} 
-                                    style={{color: "#38d6a7",
-                                        fontSize: "3em",
-                                        display: "block",
+                                <FontAwesomeIcon icon={faCartShopping} style={{color: "#3ba6f7" ,  
+                                    fontSize: "3em",
+                                    display: "block", 
                                     }} />
                                 </div>
                                 <div className="col-7 col-md-8">
@@ -96,12 +95,12 @@ function Cards() {
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 mb-3">
-                    <div className="card card-height rounded-0" style={{ width: "250px", height: "250px" }}>
+                    <div className="card card-height rounded-0" style={{ width: "250px", height: "150px" }}>
                         <div className="card-body shadow-lg p-3">
                             <div className="row">
                                 <div className="col-5 col-md-4">
-                                    <FontAwesomeIcon icon={faMoneyBill} 
-                                    style={{color: "#38d6a7",
+                                    <FontAwesomeIcon icon={faCoins} 
+                                    style={{color: "#ffd43b",
                                         fontSize: "3em",
                                         display: "block",
                                     }} />
@@ -119,12 +118,12 @@ function Cards() {
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 mb-3">
-                    <div className="card card-height rounded-0" style={{ width: "250px", height: "250px" }}>
+                    <div className="card card-height rounded-0" style={{ width: "250px", height: "150px" }}>
                         <div className="card-body shadow-lg p-3">
                             <div className="row">
                                 <div className="col-5 col-md-4">
-                                    <FontAwesomeIcon icon={faMoneyBill} 
-                                    style={{color: "#38d6a7",
+                                    <FontAwesomeIcon icon={faCoins} 
+                                    style={{color: "#ffd43b",
                                         fontSize: "3em",
                                         display: "block",
                                     }} />
